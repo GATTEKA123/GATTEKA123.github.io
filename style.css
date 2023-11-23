@@ -1,0 +1,230 @@
+body {
+    height: 100%;
+    background-color: aliceblue;
+}
+
+h1{
+    font-size: 40px;
+    color: white;
+    -webkit-text-stroke: 0.3px black;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+a{
+    font-family: sans-serif;
+    color: white;
+    display: block;
+    position: absolute;
+    bottom: 60px;
+    text-align: center;
+    left: 31%;
+    
+}
+
+a:hover{
+    color: bisque;
+}
+
+.text1{
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+    display: block;
+    margin-left: 115px;
+}
+
+.text2{
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+    display: block;
+    margin-left: 115px;
+}
+
+.text3{
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+    display: block;
+    margin-left: 115px;
+}
+
+.text4{
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+    display: block;
+    margin-left: 115px;
+}
+
+.text5{
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+    display: block;
+    margin-left: 115px;
+}
+
+.text6{
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+    display: block;
+    margin-left: 115px;
+}
+
+.textins1{
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 250px;
+    text-align: center;
+}
+
+.textins2{
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 250px;
+    text-align: center;
+}
+
+.textins3{
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 250px;
+    text-align: center;
+}
+
+.textins4{
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 250px;
+    text-align: center;
+}
+
+.textins5{
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 250px;
+    text-align: center;
+}
+
+.textins6{
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 250px;
+    text-align: center;
+}
+
+.group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(209, 209, 209);
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin: 10px;
+    position: relative;
+}
+    
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(209, 209, 209);
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.box3{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(209, 209, 209);
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.box4{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(209, 209, 209);
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin: 10px;
+    position: relative;
+}
+    
+.box5{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(209, 209, 209);
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin: 10px;
+    position: relative;
+}
+
+.box6{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(209, 209, 209);
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin: 10px;
+    position: relative;
+}
+
+.box7{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(209, 209, 209);
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.box8{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(209, 209, 209);
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin: 10px;
+    position: relative;
+}
