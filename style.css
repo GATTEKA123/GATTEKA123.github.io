@@ -1,230 +1,66 @@
-body {
-    height: 100%;
-    background-color: aliceblue;
+body{
+    background-image: url('https://phonoteka.org/uploads/posts/2022-02/1645396818_62-phonoteka-org-p-fon-dlinnii-po-gorizontali-74.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-h1{
-    font-size: 40px;
-    color: white;
-    -webkit-text-stroke: 0.3px black;
-    font-family: sans-serif;
-    text-align: center;
-}
-
-a{
-    font-family: sans-serif;
-    color: white;
-    display: block;
+.car{
     position: absolute;
-    bottom: 60px;
-    text-align: center;
-    left: 31%;
-    
+    top: 680px;
+    margin: 0;
+    width: 200px;
+    height: 95px;
+    border-radius: 5px;
+    background-image: url('https://img.goodfon.ru/wallpaper/nbig/5/a6/porsche-panamera-4s.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
-a:hover{
-    color: bisque;
+
+.window{
+    position: absolute;
+    top: 25px;
+    left: 130px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.877);
+    width: 60px;
+    height: 30px;
 }
 
-.text1{
-    font-size: 40px;
-    color: white;
-    font-family: sans-serif;
-    display: block;
-    margin-left: 115px;
+.wheel1{
+    position: absolute;
+    top: 84px;
+    left: 10px;
+    margin: 0;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
-.text2{
-    font-size: 40px;
-    color: white;
-    font-family: sans-serif;
-    display: block;
-    margin-left: 115px;
+.wheel2{
+    position: absolute;
+    top: 84px;
+    left: 147px;
+    margin: 0;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
-.text3{
-    font-size: 40px;
-    color: white;
-    font-family: sans-serif;
-    display: block;
-    margin-left: 115px;
-}
-
-.text4{
-    font-size: 40px;
-    color: white;
-    font-family: sans-serif;
-    display: block;
-    margin-left: 115px;
-}
-
-.text5{
-    font-size: 40px;
-    color: white;
-    font-family: sans-serif;
-    display: block;
-    margin-left: 115px;
-}
-
-.text6{
-    font-size: 40px;
-    color: white;
-    font-family: sans-serif;
-    display: block;
-    margin-left: 115px;
-}
-
-.textins1{
-    font-size: 20px;
-    color: white;
-    font-family: sans-serif;
-    margin-bottom: 250px;
-    text-align: center;
-}
-
-.textins2{
-    font-size: 20px;
-    color: white;
-    font-family: sans-serif;
-    margin-bottom: 250px;
-    text-align: center;
-}
-
-.textins3{
-    font-size: 20px;
-    color: white;
-    font-family: sans-serif;
-    margin-bottom: 250px;
-    text-align: center;
-}
-
-.textins4{
-    font-size: 20px;
-    color: white;
-    font-family: sans-serif;
-    margin-bottom: 250px;
-    text-align: center;
-}
-
-.textins5{
-    font-size: 20px;
-    color: white;
-    font-family: sans-serif;
-    margin-bottom: 250px;
-    text-align: center;
-}
-
-.textins6{
-    font-size: 20px;
-    color: white;
-    font-family: sans-serif;
-    margin-bottom: 250px;
-    text-align: center;
-}
-
-.group{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.box1{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(209, 209, 209);
-    height: 350px;
-    width: 350px;
-    border-radius: 10px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    margin: 10px;
+.race{
+    margin-right: 50px;
     position: relative;
-}
-    
-.box2{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(209, 209, 209);
-    height: 350px;
-    width: 350px;
-    border-radius: 10px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    margin: 10px;
-    position: relative;
+    animation: drive 5s linear forwards;
 }
 
-.box3{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(209, 209, 209);
-    height: 350px;
-    width: 350px;
-    border-radius: 10px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    margin: 10px;
-    position: relative;
-}
-
-.box4{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(209, 209, 209);
-    height: 350px;
-    width: 350px;
-    border-radius: 10px;
-    margin-right: 20px;
-    margin: 10px;
-    position: relative;
-}
-    
-.box5{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(209, 209, 209);
-    height: 350px;
-    width: 350px;
-    border-radius: 10px;
-    margin-right: 20px;
-    margin: 10px;
-    position: relative;
-}
-
-.box6{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(209, 209, 209);
-    height: 350px;
-    width: 350px;
-    border-radius: 10px;
-    margin-right: 20px;
-    margin: 10px;
-    position: relative;
-}
-
-.box7{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(209, 209, 209);
-    height: 350px;
-    width: 350px;
-    border-radius: 10px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    margin: 10px;
-    position: relative;
-}
-
-.box8{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(209, 209, 209);
-    height: 350px;
-    width: 350px;
-    border-radius: 10px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    margin: 10px;
-    position: relative;
+@keyframes drive {
+    0%{
+        left: 0px;
+    }
+ to {
+    transform: translateX(calc(100vw - 250px));
+  }
 }
